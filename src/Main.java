@@ -7,7 +7,9 @@ public class Main {
         String fullName = lastName + " " + firstName + " " + middleName;
         System.out.println("Ф. И. О. сотрудника — " + fullName);
 
+
         System.out.println("Данные Ф. И. О. сотрудника для заполнения отчета — " + fullName.toUpperCase());
+
 
         fullName = "Иванов Семён Семёнович";
         String fullNameTrue = fullName.replace("ё", "е");
